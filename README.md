@@ -1,11 +1,11 @@
-# Bara with Github integration
+# Bara with PouchDB integration
 
-Bara makes it able to setup and run the Github application in a minute.
+Bara makes it able to setup and run the PouchDB application in a minute.
 
 ## Install
 
 ```
-npm install --save @barajs/core @barajs/github
+npm install --save @barajs/core @barajs/pouchdb
 ```
 
 ## Usage

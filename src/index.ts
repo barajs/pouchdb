@@ -6,7 +6,7 @@ import { PouchDBMold, PouchDBContext } from './types'
 import * as flows from './flow'
 
 const PouchDBServer = portion<any, PouchDBContext, PouchDBMold>({
-  name: 'bara-github',
+  name: 'bara-pouchdb',
   mold: {
     port: 5984,
     name: 'bara-pouchdb',
@@ -42,5 +42,5 @@ export {
   whenDatabaseDestroyed,
 }
 export * from './types'
-// export * from './formula'
+export * from './formula'
 export default PouchDBServer

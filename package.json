@@ -24,7 +24,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "@barajs/core": "3.0.0-alpha.426",
+    "@barajs/core": "3.0.0-alpha.427",
     "@barajs/formula": "3.0.0-alpha.438",
     "@craftzdog/pouchdb-core-react-native": "7.0.0",
     "@craftzdog/pouchdb-replication-react-native": "7.0.0",

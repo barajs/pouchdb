@@ -1,8 +1,20 @@
-import { run, app, act, cond, and, or } from '@barajs/core'
-import Electron from './src'
+import { run, app, act } from '@barajs/core'
+import { pipe } from '@barajs/formula'
+import Source, { whenPouchReady, put } from './src'
 
 run(
   app({
-    portion: [Electron()],
+    portion: [Source()],
+    trigger: [
+      whenPouchReady(
+        act(
+          pipe(
+            () => ({ doc: { _id: '1', hello: 'world' } }),
+            put(),
+            (result: any) => console.log(`Success:`, result),
+          ),
+        ),
+      ),
+    ],
   }),
 )
