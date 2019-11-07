@@ -1,0 +1,56 @@
+{
+  "name": "@barajs/pouchdb",
+  "version": "1.1.2",
+  "description": "Bara PouchDB integration module",
+  "repository": {
+    "type": "git",
+    "url": "git@pouchdb.com:barajs/pouchdb.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsnd --debounce 3000 --respawn server.ts",
+    "compile": "yarn compile:tsc",
+    "compile:tsc": "tsc -b",
+    "compile:webpack": "webpack --mode=production",
+    "format": "prettier --write '{.,src/**}/*.{js,jsx,ts,tsx}'",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "@barajs/core": "3.0.0-alpha.426",
+    "@barajs/formula": "3.0.0-alpha.438",
+    "@craftzdog/pouchdb-core-react-native": "7.0.0",
+    "@craftzdog/pouchdb-replication-react-native": "7.0.0",
+    "@types/pouchdb-replication": "6.4.2",
+    "pouchdb": "7.1.1",
+    "pouchdb-adapter-http": "7.1.1",
+    "pouchdb-adapter-react-native-sqlite": "2.0.0",
+    "pouchdb-browser": "7.1.1",
+    "pouchdb-mapreduce": "7.1.1"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "3.0.5",
+    "@semantic-release/commit-analyzer": "6.3.1",
+    "@semantic-release/git": "7.0.17",
+    "@semantic-release/github": "5.5.5",
+    "@semantic-release/npm": "5.3.2",
+    "@types/lru-cache": "5.1.0",
+    "@types/pouchdb": "6.4.0",
+    "@types/pouchdb-adapter-cordova-sqlite": "1.0.0",
+    "@types/redux": "3.6.0",
+    "prettier": "1.18.2",
+    "semantic-release": "15.13.28",
+    "ts-loader": "6.2.1",
+    "ts-node-dev": "1.0.0-pre.43",
+    "typescript": "3.6.4",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.9"
+  }
+}
