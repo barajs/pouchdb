@@ -1,1 +1,6 @@
 export * from './put'
+export * from './post'
+export * from './get'
+export * from './remove'
+export * from './bulkDocs'
+export * from './allDocs'

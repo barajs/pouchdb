@@ -2,14 +2,14 @@ import { portion, flow, popEvent, popSeep } from '@barajs/core'
 
 import { PouchDB } from './platforms'
 
-import { PouchDBMold, PouchDBContext } from './types'
+import { PouchDBMold, PouchDBContext, BARA_POUCHDB } from './types'
 import * as flows from './flow'
 
 const PouchDBServer = portion<any, PouchDBContext, PouchDBMold>({
-  name: 'bara-pouchdb',
+  name: BARA_POUCHDB,
   mold: {
     port: 5984,
-    name: 'bara-pouchdb',
+    name: BARA_POUCHDB,
   },
   init: mold => {
     const { name, remote } = mold

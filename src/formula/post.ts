@@ -1,9 +1,9 @@
 import { withPouch } from './withPouch'
 
-export const put = withPouch(
+export const post = withPouch(
   () => async (doc: any, pouchdb: PouchDB.Database) => {
     try {
-      const result = await pouchdb.put(doc)
+      const result = await pouchdb.post(doc)
       return result
     } catch (err) {
       throw new Error(
