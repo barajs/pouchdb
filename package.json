@@ -4,7 +4,7 @@
   "description": "Bara PouchDB integration module",
   "repository": {
     "type": "git",
-    "url": "git@pouchdb.com:barajs/pouchdb.git"
+    "url": "git@github.com:barajs/pouchdb.git"
   },
   "publishConfig": {
     "access": "public"
