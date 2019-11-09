@@ -45,7 +45,7 @@
     "@types/lru-cache": "5.1.0",
     "@types/pouchdb-adapter-cordova-sqlite": "1.0.0",
     "@types/redux": "3.6.0",
-    "prettier": "1.18.2",
+    "prettier": "1.19.1",
     "semantic-release": "15.13.28",
     "ts-loader": "6.2.1",
     "ts-node-dev": "1.0.0-pre.43",
