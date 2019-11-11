@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/barajs/pouchdb/compare/v1.0.0...v1.0.1) (2019-11-11)
+
+
+### Bug Fixes
+
+* **pouchdb:** remove deps of pouchdb because of leveldown ([8ab8082](https://github.com/barajs/pouchdb/commit/8ab80820a293240f418eb680b1d5bceb9afbaf5b))
+
 # 1.0.0 (2019-11-08)
 
 
