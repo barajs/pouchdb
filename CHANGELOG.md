@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/barajs/pouchdb/compare/v1.0.2...v1.0.3) (2019-11-12)
+
+
+### Bug Fixes
+
+* **pouchdb:** add error handler with initialize options ([4294c39](https://github.com/barajs/pouchdb/commit/4294c39095c96a70507b61c944bfd05eb3e85a51))
+
 ## [1.0.2](https://github.com/barajs/pouchdb/compare/v1.0.1...v1.0.2) (2019-11-12)
 
 
