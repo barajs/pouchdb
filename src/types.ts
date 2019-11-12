@@ -4,6 +4,7 @@ export interface PouchDBMold {
   remote?: string
   name?: string
   syncRemote?: string
+  options?: any
 }
 
 export interface PouchDBContext {

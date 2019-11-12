@@ -12,9 +12,15 @@ const PouchDBServer = portion<any, PouchDBContext, PouchDBMold>({
     name: BARA_POUCHDB,
   },
   init: mold => {
-    const { name, remote } = mold
-    const pouchdb = new PouchDB(name || remote)
-    return { pouchdb }
+    const { name, remote, options } = mold
+    let pouchdb = null
+    try {
+      pouchdb = new PouchDB(name || remote, options)
+      return { pouchdb }
+    } catch (err) {
+      console.error(err)
+      throw new Error(`PouchDB could not initialized: ${err.message}`)
+    }
   },
   whenInitialized: flow<any, PouchDBContext, PouchDBMold>({
     bootstrap: async ({ context, next }) => {
