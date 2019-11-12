@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/barajs/pouchdb/compare/v1.0.1...v1.0.2) (2019-11-12)
+
+
+### Bug Fixes
+
+* **platforms:** reexport pouchdb ([98cb16f](https://github.com/barajs/pouchdb/commit/98cb16fd92964913af777d08a419ab35d047815a))
+
 ## [1.0.1](https://github.com/barajs/pouchdb/compare/v1.0.0...v1.0.1) (2019-11-11)
 
 
