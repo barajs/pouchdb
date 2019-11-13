@@ -1,6 +1,6 @@
 {
   "name": "@barajs/pouchdb",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Bara PouchDB integration module",
   "repository": {
     "type": "git",
