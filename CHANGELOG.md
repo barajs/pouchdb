@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/barajs/pouchdb/compare/v1.2.0...v1.2.1) (2019-11-13)
+
+
+### Bug Fixes
+
+* **upsert:** not able to insert new doc ([1722790](https://github.com/barajs/pouchdb/commit/172279008f1040e84c9e3628aa37b2ebbe3bd774))
+
 # [1.2.0](https://github.com/barajs/pouchdb/compare/v1.1.0...v1.2.0) (2019-11-13)
 
 
