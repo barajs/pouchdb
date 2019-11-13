@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/barajs/pouchdb/compare/v1.2.1...v1.3.0) (2019-11-13)
+
+
+### Bug Fixes
+
+* **initializer:** PouchDB prefer connect to remote other than local db ([2dc0efc](https://github.com/barajs/pouchdb/commit/2dc0efc40eb2cfdd2c453b7fa5be98befc4f39be))
+
+
+### Features
+
+* **formula:** add bulkDocsUpsert function ([d7438c3](https://github.com/barajs/pouchdb/commit/d7438c315f7bb939014b7f0bc369e72aa5a56929))
+
 ## [1.2.1](https://github.com/barajs/pouchdb/compare/v1.2.0...v1.2.1) (2019-11-13)
 
 
