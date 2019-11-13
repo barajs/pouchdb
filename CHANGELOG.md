@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/barajs/pouchdb/compare/v1.1.0...v1.2.0) (2019-11-13)
+
+
+### Bug Fixes
+
+* **upsert:** fix not able to insert at first time ([24cab6a](https://github.com/barajs/pouchdb/commit/24cab6af99d9b570d659164d1e8426eef12572db))
+
+
+### Features
+
+* **formula:** export withPouch function ([364e6a1](https://github.com/barajs/pouchdb/commit/364e6a1a88be91436a48416fc8408076dcdc8fbe))
+
 # [1.1.0](https://github.com/barajs/pouchdb/compare/v1.0.3...v1.1.0) (2019-11-13)
 
 
