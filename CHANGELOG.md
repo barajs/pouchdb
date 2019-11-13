@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/barajs/pouchdb/compare/v1.0.3...v1.1.0) (2019-11-13)
+
+
+### Features
+
+* **formula:** add upsert function ([65049a5](https://github.com/barajs/pouchdb/commit/65049a5359ac18f416a71cef927082969cf83ee0))
+
 ## [1.0.3](https://github.com/barajs/pouchdb/compare/v1.0.2...v1.0.3) (2019-11-12)
 
 
