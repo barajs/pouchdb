@@ -25,13 +25,11 @@ export const upsert = withPouch(
     realOptions = { ...defaultGetOptions, ...realOptions }
     try {
       let result: any = await pouchdb.get(doc._id, realOptions)
-      if (!result._id) {
-        result = await pouchdb.put({
-          ...doc,
-          _id: result._id,
-          _rev: result._rev,
-        })
-      }
+      result = await pouchdb.put({
+        ...doc,
+        _id: result._id,
+        _rev: result._rev,
+      })
       return result
     } catch (err) {
       throw new Error(
