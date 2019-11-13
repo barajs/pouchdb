@@ -15,7 +15,7 @@ const PouchDBServer = portion<any, PouchDBContext, PouchDBMold>({
     const { name, remote, options } = mold
     let pouchdb = null
     try {
-      pouchdb = new PouchDB(name || remote, options)
+      pouchdb = new PouchDB(remote || name, options)
       return { pouchdb }
     } catch (err) {
       console.error(err)
