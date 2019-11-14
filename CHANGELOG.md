@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/barajs/pouchdb/compare/v1.3.0...v1.3.1) (2019-11-14)
+
+
+### Bug Fixes
+
+* **formula:** fix upsert method flow ([30528e8](https://github.com/barajs/pouchdb/commit/30528e87eed95f55075e7921b240242ef7f51bc2))
+
 # [1.3.0](https://github.com/barajs/pouchdb/compare/v1.2.1...v1.3.0) (2019-11-13)
 
 
