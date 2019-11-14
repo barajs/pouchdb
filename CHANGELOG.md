@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/barajs/pouchdb/compare/v1.3.1...v1.3.2) (2019-11-14)
+
+
+### Bug Fixes
+
+* **upsertDocs:** rename from bulkDocsUpsert method ([e3f07b3](https://github.com/barajs/pouchdb/commit/e3f07b32ec84917fa997329dee731bb84c095c32))
+
 ## [1.3.1](https://github.com/barajs/pouchdb/compare/v1.3.0...v1.3.1) (2019-11-14)
 
 
