@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/barajs/pouchdb/compare/v1.3.2...v1.4.0) (2020-01-22)
+
+
+### Features
+
+* **plugins:** able to specify plugins collection ([01a331c](https://github.com/barajs/pouchdb/commit/01a331cd709bd94d9472bca59fe883c085aabd8f))
+
 ## [1.3.2](https://github.com/barajs/pouchdb/compare/v1.3.1...v1.3.2) (2019-11-14)
 
 
