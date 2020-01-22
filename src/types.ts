@@ -3,6 +3,7 @@ export const BARA_POUCHDB: string = 'bara-pouchdb'
 export interface PouchDBMold {
   remote?: string
   name?: string
+  plugins?: any[]
   syncRemote?: string
   options?: any
 }

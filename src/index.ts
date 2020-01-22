@@ -12,9 +12,13 @@ const PouchDBServer = portion<any, PouchDBContext, PouchDBMold>({
     name: BARA_POUCHDB,
   },
   init: mold => {
-    const { name, remote, options } = mold
+    const { name, remote, options, plugins } = mold
     let pouchdb = null
     try {
+      if (plugins)
+        for (const plugin of plugins) {
+          PouchDB.plugin(plugin)
+        }
       pouchdb = new PouchDB(remote || name, options)
       return { pouchdb }
     } catch (err) {
