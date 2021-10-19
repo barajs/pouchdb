@@ -41,7 +41,7 @@
     "@semantic-release/git": "7.0.17",
     "@semantic-release/github": "5.5.5",
     "@semantic-release/npm": "5.3.2",
-    "@types/lru-cache": "5.1.0",
+    "@types/lru-cache": "5.1.1",
     "@types/pouchdb-adapter-cordova-sqlite": "1.0.0",
     "@types/redux": "3.6.0",
     "prettier": "1.18.2",
