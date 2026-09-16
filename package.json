@@ -26,14 +26,14 @@
   "dependencies": {
     "@barajs/core": "3.0.0-alpha.427",
     "@barajs/formula": "3.0.0-alpha.438",
-    "@craftzdog/pouchdb-core-react-native": "7.0.0",
+    "@craftzdog/pouchdb-core-react-native": "7.2.2",
     "@craftzdog/pouchdb-replication-react-native": "7.0.0",
     "@types/pouchdb": "6.4.0",
     "@types/pouchdb-replication": "6.4.2",
-    "pouchdb-adapter-http": "7.1.1",
+    "pouchdb-adapter-http": "7.3.1",
     "pouchdb-adapter-react-native-sqlite": "2.0.0",
-    "pouchdb-browser": "7.1.1",
-    "pouchdb-mapreduce": "7.1.1"
+    "pouchdb-browser": "7.3.1",
+    "pouchdb-mapreduce": "7.3.1"
   },
   "devDependencies": {
     "@semantic-release/changelog": "3.0.5",
